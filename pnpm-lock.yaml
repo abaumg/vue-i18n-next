@@ -23,7 +23,7 @@ importers:
       algoliasearch: ^4.9.0
       api-docs-gen: ^0.4.0
       brotli: ^1.3.2
-      chalk: ^4.1.0
+      chalk: ^5.0.0
       convert-hrtime: ^5.0.0
       cross-env: ^7.0.2
       esbuild-register: ^2.3.0
@@ -100,7 +100,7 @@ importers:
       algoliasearch: 4.10.5
       api-docs-gen: 0.4.0
       brotli: 1.3.2
-      chalk: 4.1.2
+      chalk: 5.0.0
       convert-hrtime: 5.0.0
       cross-env: 7.0.3
       esbuild-register: 2.6.0
@@ -2841,12 +2841,6 @@ packages:
     dependencies:
       '@vue/shared': 3.2.20
 
-  /@vue/reactivity/3.2.23:
-    resolution: {integrity: sha512-8RGVr/5Kpgb/EkCjgHXqttgA5IMc6n0lIXFY4TVbMkzdXrvaIhzBd7Te44oIDsTSYVKZLpfHd6/wEnuDqE8vFw==}
-    dependencies:
-      '@vue/shared': 3.2.23
-    dev: true
-
   /@vue/reactivity/3.2.26:
     resolution: {integrity: sha512-h38bxCZLW6oFJVDlCcAiUKFnXI8xP8d+eO0pcDxx+7dQfSPje2AO6M9S9QO6MrxQB7fGP0DH0dYQ8ksf6hrXKQ==}
     dependencies:
@@ -2910,10 +2904,6 @@ packages:
 
   /@vue/shared/3.2.20:
     resolution: {integrity: sha512-FbpX+hD5BvXCQerEYO7jtAGHlhAkhTQ4KIV73kmLWNlawWhTiVuQxizgVb0BOkX5oG9cIRZ42EG++d/k/Efp0w==}
-
-  /@vue/shared/3.2.23:
-    resolution: {integrity: sha512-U+/Jefa0QfXUF2qVy9Dqlrb6HKJSr9/wJcM66wXmWcTOoqg7hOWzF4qruDle51pyF4x3wMn6TSH54UdjKjCKMA==}
-    dev: true
 
   /@vue/shared/3.2.26:
     resolution: {integrity: sha512-vPV6Cq+NIWbH5pZu+V+2QHE9y1qfuTq49uNWw4f7FDEeZaDU2H2cx5jcUZOAKW7qTrUS4k6qZPbMy1x4N96nbA==}
@@ -4116,6 +4106,11 @@ packages:
       supports-color: 7.2.0
     dev: true
 
+  /chalk/5.0.0:
+    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: true
+
   /change-case/4.1.1:
     resolution: {integrity: sha512-qRlUWn/hXnX1R1LBDF/RelJLiqNjKjUqlmuBVSEIyye8kq49CXqkZWKmi8XeUAdDXWFOcGLUMZ+aHn3Q5lzUXw==}
     dependencies:
@@ -4539,7 +4534,7 @@ packages:
   /constantinople/4.0.1:
     resolution: {integrity: sha512-vCrqcSIq4//Gx74TXXCGnHpulY1dskqLTFGDmhrGxzeXL8lF8kvXv6mpNWlJj1uD4DW23D4ljAqbY4RRaaUZIw==}
     dependencies:
-      '@babel/parser': 7.15.8
+      '@babel/parser': 7.16.6
       '@babel/types': 7.15.6
     dev: true
 
@@ -13830,8 +13825,8 @@ packages:
       '@volar/transforms': 0.29.6
       '@volar/vue-code-gen': 0.29.6
       '@vscode/emmet-helper': 2.8.1
-      '@vue/reactivity': 3.2.23
-      '@vue/shared': 3.2.23
+      '@vue/reactivity': 3.2.26
+      '@vue/shared': 3.2.26
       request-light: 0.5.4
       upath: 2.0.1
       vscode-css-languageservice: 5.1.7
@@ -14287,7 +14282,7 @@ packages:
     resolution: {integrity: sha512-RNGKj82nUPg3g5ygxkQl0R937xLyho1J24ItRCBTr/m1YnZkzJy1hUiHUJrc/VlsDQzsCnInEGSg3bci0Lmd4w==}
     engines: {node: '>= 10.0.0'}
     dependencies:
-      '@babel/parser': 7.15.8
+      '@babel/parser': 7.16.6
       '@babel/types': 7.15.6
       assert-never: 1.2.1
       babel-walk: 3.0.0-canary-5
