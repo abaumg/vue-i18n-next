@@ -808,7 +808,7 @@ function createGlobal(
 function getI18nInstance(instance: ComponentInternalInstance): I18n {
   if (!__BRIDGE__) {
     const i18n = inject(
-      !instance.isCE
+      !instance.isCE && instance.appContext.app
         ? instance.appContext.app.__VUE_I18N_SYMBOL__!
         : I18nInjectionKey
     )
